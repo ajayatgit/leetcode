@@ -4,9 +4,6 @@ phases:
   install:
     runtime-versions:
       nodejs: 10  
-    commands:
-      - echo Installing Mocha...
-      - npm install -g mocha
   pre_build:
     commands:
       - echo "Logging in to ecr..."
